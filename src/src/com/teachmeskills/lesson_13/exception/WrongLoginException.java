@@ -8,7 +8,7 @@ public class WrongLoginException extends Exception{
         super(message);
         this.exceptionLCode = exceptionCode;
     }
-    public int getExceptionCode() {
+    public int GetExceptionCode() {
         return exceptionLCode;
     }
 }

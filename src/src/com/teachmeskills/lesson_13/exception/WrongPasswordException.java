@@ -8,7 +8,7 @@ public class WrongPasswordException extends  Exception{
         super(message);
         this.exceptionPCode = exceptionCode;
     }
-    public int getExceptionCode() {
+    public int GetExceptionCode() {
         return exceptionPCode;
     }
 }
