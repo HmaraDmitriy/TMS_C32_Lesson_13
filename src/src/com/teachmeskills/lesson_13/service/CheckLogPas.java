@@ -9,7 +9,7 @@ public class CheckLogPas {
     public static void CheckLogPas(String login,String password, String confirmPassword){
 
         try {
-            boolean result = LogPass.checkLogin(login, password, confirmPassword);
+            boolean result = LogPass.CheckLogin(login, password, confirmPassword);
              if (result){
                  System.out.println("Login and password are valid.");
              }

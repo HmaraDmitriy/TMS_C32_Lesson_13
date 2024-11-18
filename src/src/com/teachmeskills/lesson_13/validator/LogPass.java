@@ -5,7 +5,7 @@ import com.teachmeskills.lesson_13.exception.WrongLoginException;
 import com.teachmeskills.lesson_13.exception.WrongPasswordException;
 
 public class LogPass {
-    public static boolean checkLogin (String login,String password, String confirmPassword)
+    public static boolean CheckLogin (String login,String password, String confirmPassword)
             throws WrongLoginException, WrongPasswordException {
 
         if (login.length() >= 20 || login.contains(" ")) {
